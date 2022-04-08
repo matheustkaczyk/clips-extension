@@ -15,7 +15,7 @@ export const Forms = ({ handleStorage }) => {
     <form>
       <Input placeholder={ 'Digite um nome' } name={ setName }/>
       <Input placeholder={ 'Digite o conteúdo' } name={ setContent }/>
-      <Button placeholder={ 'Adicionar' } onClick={ (e) => handleClick(e) }/>
+      <Button placeholder={ 'Adicionar' } onClick={ handleClick }/>
     </form>
   )
 };
