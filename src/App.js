@@ -8,14 +8,15 @@ function App() {
 
   useEffect(() => {
     function gatherInfo() {
-      const recoverStorage = localStorage.getItem('clips');
+      let recoverStorage = localStorage.getItem('clips');
 
-      if (!recoverStorage) {
-        localStorage.setItem('clips', []);
+      if (recoverStorage === null) {
         setStorage([]);
+        return false;
       }
 
-      setStorage(JSON.parse(recoverStorage));
+      recoverStorage = JSON.parse(recoverStorage);
+      setStorage(recoverStorage);
     }
 
     gatherInfo();
@@ -23,7 +24,7 @@ function App() {
 
   const handleStorage = (name, content) => {
     const object = { name, content };
-    setStorage([...storage, object])
+    setStorage([...storage, object]);
 
     localStorage.setItem('clips', JSON.stringify(storage));
   }

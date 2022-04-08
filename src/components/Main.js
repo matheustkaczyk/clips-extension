@@ -1,12 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 export const Main = () => {
-
-  useEffect(() => {
-    let itens = localStorage.getItem('clips-*');
-    console.log(JSON.parse(itens));
-  }, [])
-
   return(
     <div>
 
