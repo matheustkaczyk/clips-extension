@@ -11,11 +11,12 @@ function App() {
       let recoverStorage = localStorage.getItem('clips');
 
       if (recoverStorage === null) {
+        localStorage.setItem('clips', [])
         setStorage([]);
         return false;
       }
 
-      recoverStorage = JSON.parse(recoverStorage);
+      // recoverStorage = JSON.parse(recoverStorage);
       setStorage(recoverStorage);
     }
 
@@ -24,9 +25,12 @@ function App() {
 
   const handleStorage = (name, content) => {
     const object = { name, content };
-    setStorage([...storage, object]);
+    let newArr = [...storage, object];
 
-    localStorage.setItem('clips', JSON.stringify(storage));
+    let arrayStringified = JSON.stringify(newArr)
+    setStorage(newArr);
+
+    localStorage.setItem('clips', arrayStringified);
   }
 
   return (

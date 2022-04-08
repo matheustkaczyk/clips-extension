@@ -6,16 +6,15 @@ export const Forms = ({ handleStorage }) => {
   const [name, setName] = useState('');
   const [content, setContent] = useState('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleClick = () => {
     handleStorage(name, content);
   };
 
   return(
-    <form onSubmit={(e) => handleSubmit(e)}>
+    <form>
       <Input placeholder={ 'Digite um nome' } name={ setName }/>
       <Input placeholder={ 'Digite o conteúdo' } name={ setContent }/>
-      <Button type={ 'submit' } placeholder={ 'Adicionar' }/>
+      <Button type={ 'button' } onClick={ handleClick } placeholder={ 'Adicionar' }/>
     </form>
   )
 };
