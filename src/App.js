@@ -16,7 +16,7 @@ function App() {
         return false;
       }
 
-      // recoverStorage = JSON.parse(recoverStorage);
+      recoverStorage = JSON.parse(recoverStorage);
       setStorage(recoverStorage);
     }
 
