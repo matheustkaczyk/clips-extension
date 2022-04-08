@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 import { Header } from './components/Header';
 import { Main } from './components/Main';
+import * as randomId from 'random-id';
 
 function App() {
   const [storage, setStorage] = useState([]);
@@ -24,7 +25,7 @@ function App() {
   }, []);
 
   const handleStorage = (name, content) => {
-    const object = { name, content };
+    const object = { name, content, id: randomId() };
     let newArr = [...storage, object];
 
     let arrayStringified = JSON.stringify(newArr)
@@ -36,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <Header handleStorage={handleStorage} />
-      <Main />
+      <Main storage={ storage } />
     </div>
   );
 }
