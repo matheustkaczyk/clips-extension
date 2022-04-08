@@ -4,7 +4,7 @@ import { Forms } from './Forms';
 
 export const Header = ({ handleStorage }) => {
   return (
-    <header>
+    <header className='header'>
       <AiOutlinePaperClip/>
       <h2>Clips</h2>
 
