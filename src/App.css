@@ -1,9 +1,12 @@
 .App {
   max-width: 400px;
   max-height: 300px;
+  padding: 1em;
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
 }
 
 .card {
