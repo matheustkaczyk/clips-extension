@@ -48,8 +48,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header handleStorage={handleStorage} />
-      <Main storage={ storage } handleDelete={ handleDelete } />
+      <Header />
+      <Main storage={ storage } handleDelete={ handleDelete } handleStorage={ handleStorage } />
     </div>
   );
 }
