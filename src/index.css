@@ -1,6 +1,6 @@
 body, html {
-  max-width: 400;
-  max-height: 320;
+  max-width: 400px;
+  max-height: 320px;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -9,9 +9,8 @@ body, html {
 
 html {
   position: relative;
-  max-width: 400px;
-  max-height: 320px;
-  height: 100%;
+  width: 400px;
+  height: 320px;
   background-image: linear-gradient(to bottom right, #201E50, #525B76);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #C4F1BE;

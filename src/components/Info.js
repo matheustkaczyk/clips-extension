@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Info = () => {
   return(
-    <div>
-      <h2>Add a new item</h2>
+    <div className="info">
+      <h4>Add your first item</h4>
     </div>
   )
 };

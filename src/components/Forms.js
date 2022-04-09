@@ -7,7 +7,7 @@ export const Forms = ({ handleStorage }) => {
   const [content, setContent] = useState('');
 
   const handleClick = () => {
-    handleStorage(name, content);
+    if (name !== '' && content !== '') handleStorage(name, content);
   };
 
   return(
@@ -16,7 +16,7 @@ export const Forms = ({ handleStorage }) => {
         <Input placeholder={ 'Insert the title' } name={ setName } className="form-control"/>
         <Input placeholder={ 'Insert the content' } name={ setContent } className="form-control"/>
       </div>
-      <Button type={ 'button' } onClick={ handleClick } placeholder={ 'Adicionar' }/>
+      <Button type={ 'button' } onClick={ handleClick } placeholder={ 'Insert' }/>
     </form>
   )
 };
