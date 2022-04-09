@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from './Card';
 import { Forms } from './Forms';
+import { Info } from './Info';
 
 export const Main = ({ storage, handleDelete, handleStorage }) => {
   return(
@@ -10,7 +11,7 @@ export const Main = ({ storage, handleDelete, handleStorage }) => {
     </div>
       <div className="card-wrapper">
         {
-          storage.length > 0 && storage.map(
+          storage.length > 0 ? storage.map(
             (item) => 
             <Card
               key={item.id}
@@ -19,7 +20,8 @@ export const Main = ({ storage, handleDelete, handleStorage }) => {
               id={item.id}
               handleDelete={handleDelete}
             />
-            )
+            ) :
+            <Info />
         }
       </div>
     </main>

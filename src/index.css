@@ -8,8 +8,10 @@ body, html {
 }
 
 html {
-  max-width: 400;
-  max-height: 320;
+  position: relative;
+  max-width: 400px;
+  max-height: 320px;
+  height: 100%;
   background-image: linear-gradient(to bottom right, #201E50, #525B76);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #C4F1BE;
