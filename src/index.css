@@ -11,7 +11,7 @@ html {
   position: relative;
   width: 400px;
   height: 320px;
-  background-image: linear-gradient(to bottom right, #201E50, #525B76);
+  background-image: linear-gradient(to bottom right, #2B59C3, #253C78);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #C4F1BE;
+  color: rgb(235, 220, 220);
 }
