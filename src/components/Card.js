@@ -6,7 +6,7 @@ export const Card = ({ name, content, id, handleDelete }) => {
   return(
     <section onClick={ () => copy(content) } className="card">
       <h3>{name}</h3>
-      <Button type="button" placeholder={ 'Excluir' } onClick={ () => handleDelete(id) } />
+      <Button type="button" placeholder={ 'Delete' } onClick={ () => handleDelete(id) } />
     </section>
   )
 };

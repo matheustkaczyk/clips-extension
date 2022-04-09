@@ -1,9 +1,16 @@
 body, html {
+  max-width: 400;
+  max-height: 320;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: grey;
+}
+
+html {
+  max-width: 400;
+  max-height: 320;
+  background-image: linear-gradient(to bottom right, #201E50, #525B76);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
+  color: #C4F1BE;
 }

@@ -1,12 +1,13 @@
 .App {
   max-width: 400px;
-  max-height: 300px;
+  max-height: 320px;
   padding: 1em;
 }
 
 .clips-ico {
   width: 10%;
   height: auto;
+  color: #869D96;
 }
 
 .header {
@@ -14,25 +15,72 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px
 }
 
 .header h2 {
   padding: 0;
   margin: 0;
+  color: #C4F1BE;
+}
+
+.card::mouseover {
+  background-color: #F5F5F5;
 }
 
 .card {
-  height: 85px;
+  height: 80px;
   padding: 1%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+}
+
+.card button {
+  height: 100%;
 }
 
 .card-wrapper {
-  width: 100%;
-  height: 170px;
+  width: 400;
+  height: 100%;
   overflow: auto;
-  border: solid black 1px;
+  border: solid;
+  border-width: 5px;
+  border-image: repeating-linear-gradient(45deg, #C4F1BE, #868686) 1;
 }
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.form input {
+  width: 100%;
+  height: 22px;
+  border: 0;
+  background-color: #525B76;
+  color: #869D96;
+}
+
+::placeholder {
+  color: #b6b8b6;
+}
+
+button {
+  border: 0;
+  background-color: #525B76;
+  color: #869D96;
+}
+
+button::placeholder {
+  color: #C4F1BE;
+}
+
+.form button {
+  border: 0;
+}
+

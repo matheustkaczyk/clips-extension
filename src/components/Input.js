@@ -1,11 +1,11 @@
 import React from 'react';
 
-export const Input = ({ placeholder, name }) => {
+export const Input = ({ placeholder, name, classN }) => {
   const handleChange = ({ target }) => {
     name(target.value);
   }
 
   return(
-    <input placeholder={placeholder} onChange={(e) => handleChange(e)} />
+    <input className={classN} placeholder={placeholder} onChange={(e) => handleChange(e)} />
   )
 };

@@ -11,9 +11,11 @@ export const Forms = ({ handleStorage }) => {
   };
 
   return(
-    <form>
-      <Input placeholder={ 'Digite um nome' } name={ setName }/>
-      <Input placeholder={ 'Digite o conteúdo' } name={ setContent }/>
+    <form className="form">
+      <div>
+        <Input placeholder={ 'Insert the title' } name={ setName } className="form-control"/>
+        <Input placeholder={ 'Insert the content' } name={ setContent } className="form-control"/>
+      </div>
       <Button type={ 'button' } onClick={ handleClick } placeholder={ 'Adicionar' }/>
     </form>
   )
