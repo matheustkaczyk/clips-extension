@@ -34,10 +34,22 @@ function App() {
     localStorage.setItem('clips', arrayStringified);
   }
 
+  const handleDelete = (id) => {
+    let recoverStorage = localStorage.getItem('clips');
+    recoverStorage = JSON.parse(recoverStorage);
+
+    recoverStorage = recoverStorage.filter((item) => item.id !== id);
+
+    setStorage(recoverStorage);
+
+    let storageString = JSON.stringify(recoverStorage);
+    localStorage.setItem('clips', storageString);
+  }
+
   return (
     <div className="App">
       <Header handleStorage={handleStorage} />
-      <Main storage={ storage } />
+      <Main storage={ storage } handleDelete={ handleDelete } />
     </div>
   );
 }
