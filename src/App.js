@@ -46,10 +46,19 @@ function App() {
     localStorage.setItem('clips', storageString);
   }
 
+  const handleCopy = (copyFunc, content, setOpened) => {
+    setOpened(true);
+    copyFunc(content);
+
+    setTimeout(() => {
+      setOpened(false);
+    }, 3000)
+  }
+
   return (
     <div className="App">
       <Header />
-      <Main storage={ storage } handleDelete={ handleDelete } handleStorage={ handleStorage } />
+      <Main storage={ storage } handleDelete={ handleDelete } handleStorage={ handleStorage } handleCopy={ handleCopy } />
     </div>
   );
 }

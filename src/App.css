@@ -7,7 +7,7 @@
 .clips-ico {
   width: 10%;
   height: auto;
-  color: #113ba7;
+  color: white;
 }
 
 .header {
@@ -33,6 +33,14 @@
   align-items: center;
   cursor: pointer;
   background-color: #2B59C3;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card span {
+  color: rgb(9, 230, 9);
 }
 
 .card:hover {

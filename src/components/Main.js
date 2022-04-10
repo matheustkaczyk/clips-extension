@@ -3,7 +3,7 @@ import { Card } from './Card';
 import { Forms } from './Forms';
 import { Info } from './Info';
 
-export const Main = ({ storage, handleDelete, handleStorage }) => {
+export const Main = ({ storage, handleDelete, handleStorage, handleCopy }) => {
   return(
     <main>
       <div>
@@ -19,6 +19,7 @@ export const Main = ({ storage, handleDelete, handleStorage }) => {
               content={item.content}
               id={item.id}
               handleDelete={handleDelete}
+              handleCopy={handleCopy}
             />
             ) :
             <Info />
