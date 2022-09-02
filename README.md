@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Clips
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Projeto de uma extensão para Google Chrome, na qual contempla o salvamento de informações e a função copy to clipboard integrado.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Visão Geral
 
-### `npm start`
+##### Este projeto tinha como propósito a criação de uma extensão para o Chrome para resolver um grande problema que eu estava tendo, a demora para pegar informações necessárias na hora de se cadastrar em processos seletivos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##### Bibliotecas:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React](https://pt-br.reactjs.org/) v^4.17.3 - Framework
 
-### `npm test`
+## **Sumário**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Pré Requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Utilização online](#utilização-online)
+- [Próximos passos](#próximos-passos)
+- [Sobre o autor](#sobre-o-autor)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **Pré requisitos**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para rodar esse projeto é necessário ter instalado em sua máquina o runtime Node.js e o gerenciador de pacotes NPM.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **Instalação**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Utilização local
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Você pode baixar o projeto em sua máquina utilizando o comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   **`git@github.com:matheustkaczyk/easybank-challenge.git`**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Entre na pasta do projeto digitando o comando **`cd easybank-challenge`**
 
-## Learn More
+3. Instale as dependências do projeto digitando **`npm install`** em seu terminal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Para rodar a aplicação digite **`npm run dev`** em seu terminal
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ ## **Utilização online**
+ 
+ Este site está hospedado na plataforma Vercel, para testa-lo sem instalar nada em seu computador acesse esse link:
+ **`https://easybank-one-omega.vercel.app/`**
+ Se a aplicação der algum tipo de erro, aguarde um pouco e tente novamente, Vercel deixa a aplicação "desativada" quando fica há algum tempo sem requisições.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## **Sobre o autor**
 
-### Analyzing the Bundle Size
+Obrigado por ter lido até aqui!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Eu me chamo Matheus, e sou desenvolvedor web fullstack. Comecei meus estudos no ano de 2020 e estou me apaixonando cada dia que passa, através dos estudos, por tecnologia e desenvolvimento. Esse projeto e esse README foram desenvolvidos como um desafio pessoal. Eu empenhei muito carinho na construção de cada linha.
 
-### Making a Progressive Web App
+[Você pode olhar mais dos meus repositórios aqui](https://github.com/matheustkaczyk)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Ou se conectar comigo no linkedin!](https://www.linkedin.com/in/matheustkaczykribeiro/)
