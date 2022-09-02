@@ -44,10 +44,10 @@ Para rodar esse projeto é necessário ter instalado em sua máquina o runtime N
 
  ## **Utilização no navegador**
  
- Para de fato usar essa extensão em seu navegador, você deve primeiro efetuar a build do mesmo, com o comando **`npm run build`**
- Após buildado, entre em seu navegador e procure a sessão de extensões
- Ao entrar na sessão de extensões, ative a opção de **Modo do desenvolvedor**
- Ao ativar, irá aparecer a opção **Carregar sem compactação**, é só clicar lá e procurar a basta que o **build** gerou
+ 1. Para de fato usar essa extensão em seu navegador, você deve primeiro efetuar a build do mesmo, com o comando **`npm run build`**
+ 2. Após buildado, entre em seu navegador e procure a sessão de extensões
+ 3. Ao entrar na sessão de extensões, ative a opção de **Modo do desenvolvedor**
+ 4. Ao ativar, irá aparecer a opção **Carregar sem compactação**, é só clicar lá e procurar a basta que o **build** gerou.
 ---
 
 ## **Sobre o autor**
