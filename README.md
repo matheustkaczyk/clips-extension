@@ -36,7 +36,7 @@ Para rodar esse projeto é necessário ter instalado em sua máquina o runtime N
 
    **`git@github.com:matheustkaczyk/clips-extension.git`**
 
-2. Entre na pasta do projeto digitando o comando **`cd easybank-challenge`**
+2. Entre na pasta do projeto digitando o comando **`cd clips-extension`**
 
 3. Instale as dependências do projeto digitando **`npm install`** em seu terminal
 
