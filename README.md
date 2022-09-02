@@ -34,7 +34,7 @@ Para rodar esse projeto é necessário ter instalado em sua máquina o runtime N
 
 1. Você pode baixar o projeto em sua máquina utilizando o comando:
 
-   **`git@github.com:matheustkaczyk/easybank-challenge.git`**
+   **`git@github.com:matheustkaczyk/clips-extension.git`**
 
 2. Entre na pasta do projeto digitando o comando **`cd easybank-challenge`**
 
@@ -42,12 +42,12 @@ Para rodar esse projeto é necessário ter instalado em sua máquina o runtime N
 
 4. Para rodar a aplicação digite **`npm run dev`** em seu terminal
 
- ## **Utilização online**
+ ## **Utilização no navegador**
  
- Este site está hospedado na plataforma Vercel, para testa-lo sem instalar nada em seu computador acesse esse link:
- **`https://easybank-one-omega.vercel.app/`**
- Se a aplicação der algum tipo de erro, aguarde um pouco e tente novamente, Vercel deixa a aplicação "desativada" quando fica há algum tempo sem requisições.
-
+ Para de fato usar essa extensão em seu navegador, você deve primeiro efetuar a build do mesmo, com o comando **`npm run build`**;
+ Após buildado, entre em seu navegador e procure a sessão de extensões;
+ Ao entrar na sessão de extensões, ative a opção de **Modo do desenvolvedor**;
+ Ao ativar, irá aparecer a opção **Carregar sem compactação**, é só clicar lá e procurar a basta que o **build** gerou;
 ---
 
 ## **Sobre o autor**
