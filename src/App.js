@@ -12,7 +12,7 @@ function App() {
       let recoverStorage = localStorage.getItem('clips');
 
       if (recoverStorage === null) {
-        localStorage.setItem('clips', [])
+        localStorage.setItem('clips', "[]")
         setStorage([]);
         return false;
       }
